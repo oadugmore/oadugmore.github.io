@@ -51,9 +51,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="about">About</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
                 <!-- <li class="nav-item">
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li> -->
@@ -75,12 +72,12 @@
     </nav>
 
     <main role="main">
-        <div class="jumbotron text-center" style="background-color: #fff;">
+        <div class="jumbotron text-center">
             <div class="container" style="max-width: 40rem;">
                 <h1>Projects</h1>
             </div>
-
         </div>
+
         <div class="container">
             <div class="row justify-content-center mb-4">
                 <div class="col-md-4">
@@ -103,7 +100,8 @@
                     <p>Sync,hue is my latest game development project. It is a platforming game based around the idea of
                         synchronized, color-coordinated movement.
                         The player uses two buttons — a blue button and an orange button — to control objects of the
-                        corresponding color. Other objects have various other colors which provide different behaviors.
+                        corresponding color. Various other colors provide different behaviors that the player must learn
+                        to utilize.
                         This allows for a unique combination of platforming and puzzle elements that create a fun,
                         challenging experience.
                     </p>
@@ -135,12 +133,14 @@
                 </div>
                 <div class="col-md-6">
                     <p>In The Know is a mobile app that I originally created for CS 4990 at Cal Poly Pomona, and I am
-                        still actively developing it. The user enters a phrase, which can be a location or some other search query. The app then displays information about potentially dangerous or
-                        disruptive situations, using data from Twitter with the power of natural language processing. The app can also be
+                        still actively developing it. The user enters a phrase, which can be a location or some other
+                        search query. The app then displays information about potentially dangerous or
+                        disruptive situations, using data from Twitter with the power of natural language processing.
+                        The app can also be
                         configured to show periodic notifications when a situation is detected matching the user's
                         search phrase.
                     </p>
-                    <p>I am using the Flutter framework for the client app, and a
+                    <p>I use the Flutter framework for the client app, and a
                         Python function hosted in Google Cloud for the app's main functionality. The cloud
                         function fetches data through the Twitter API, and processes the data using the Python NLP
                         library spaCy. I use a modified version of the standard English model with custom named entity

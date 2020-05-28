@@ -5,3 +5,9 @@ body {
     padding: 3rem 1.5rem;
     text-align: center;
   }
+  .jumbotron {
+    background-color: white;
+  }
+  main p {
+    max-width: 40rem;
+  }
